@@ -17,6 +17,7 @@ variable=True
 Variable='a'
 Variable=3.1415926535
 
+
 #para asignar un valor a una variable se usa el operador =
 
 #operadores:Mecanismos para obtener un dato a partir de otros datos.
@@ -31,4 +32,23 @@ a=True
 b=False
 
 print(a and b)
- 
+
+
+
+
+#2.Repetir la ejecucion de un bloque de 
+#3.
+
+#Sentencia if. si se cumple una condicion (se evalua como true)
+#se ejecuta un loque de código
+
+
+entrada= int (input ("cuantos años tiene"))
+
+if entrada<18:
+    print("Es un menor de edad.")
+else:
+    print("ya esta grande,deje de chillar")
+    
+#Taller crear un programa que genere un numero aleatorio 
+#Entre 2 y 12. si el numero es 7 imprimir ganó 
